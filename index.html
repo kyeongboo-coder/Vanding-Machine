@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>밴딩머신</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title">
+        <img src="img/logo.svg" alt="logo">
+    </div>
+
+    <div class="container">
+        <!-- ul list 형식으로 줌 -->
+        <div class="a">
+            <button type="button" class="cola1">
+                <img src="img/콜라1.svg" alt="콜라1">
+                <p class="cola1-title">Original_Cola</p>
+                <p class="cola1-price">1000원</p>
+            </button>
+
+
+            <button type="button" class="cola2">
+                <img src="img/콜라2.svg" alt="콜라2">
+                <p class="cola2-title">Violet_Cola</p>
+                <p class="cola2-price">1000원</p>
+            </button>
+
+
+            <button type="button" class="cola3">
+                <img src="img/콜라3.svg" alt="콜라3">
+                <p class="cola3-title">Yellow_Cola</p>
+                <p class="cola3-price">1000원</p>
+            </button>
+
+
+            <button type="button" class="cola4">
+                <img src="img/콜라4.svg" alt="콜라4">
+                <p class="cola4-title">Cool_Cola</p>
+                <p class="cola4-price">1000원</p>
+            </button>
+
+
+            <button type="button" class="cola5">
+                <img src="img/콜라5.svg" alt="콜라5">
+                <p class="cola5-title">Green_Cola</p>
+                <p class="cola5-price">1000원</p>
+            </button>
+
+
+            <button type="button" class="cola6">
+                <img src="img/콜라6.svg" alt="콜라6">
+                <p class="cola6-title">Orange_Cola</p>
+                <p class="cola6-price">1000원</p>
+            </button>
+
+
+            <div class="change">
+                <!-- 잔액 :과 1,000원을 h2와 p로 묶음 -->
+                <div class="change-text">잔액 : </div>
+                <span class="change-money">
+                    1,000원
+                </span>
+            </div>
+
+            <button type="button" class="change-return">
+                <strong>거스름돈 반환</strong></button>
+
+
+            <div class="put-money">
+                <input type="number" class="put" placeholder="입금액 입력">
+            </div>
+
+            <button type="button" class="put-put">
+                <strong>입금</strong></button>
+
+            <div class="beverage-list">
+                <ul class="list">
+                    <li class="list_bg">
+                        <img src="img/콜라1.svg" alt="list1">
+                        <strong class="list-name">Original_Cola</strong>
+                        <span class="number"><strong>1</strong> </span>
+                    </li>
+                    <li class="list_bg">
+                        <img src="img/콜라5.svg" alt="list2">
+                        <strong class="list-name">Green_Cola</strong>
+                        <span class="number"><strong>2</strong> </span>
+                    </li>
+                    <li class="list_bg">
+                        <img src="img/콜라6.svg" alt="list2">
+                        <strong class="list-name">Orange_Cola</strong>
+                        <span class="number"><strong>2</strong> </span>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="get"><strong>획득</strong></button>
+        </div>
+
+
+        <div class="b">
+            <div class="box1">
+                <!-- h2와 p태그로 중복 컴포넌트임 -->
+                <div class="p-text"> 소지금 :</div>
+                <span class="p-money">
+                    25,000원
+                </span>
+            </div>
+        </div>
+
+
+        <div class="c">
+            <span class="title2">
+                <strong> 획득한 음료</strong>
+            </span>
+
+            <div class="box2">
+                <div class="scroll2">
+                    <ul class="list2">
+                        <li class="list2_bg">
+                            <img src="img/콜라1.svg" alt="list1">
+                            <strong class="list2-name">Original_Cola</strong>
+                            <span class="number2"><strong>1</strong> </span>
+                        </li>
+                        <li class="list2_bg">
+                            <img src="img/콜라5.svg" alt="list2">
+                            <strong class="list2-name">Green_Cola</strong>
+                            <span class="number2"><strong>2</strong> </span>
+                        </li>
+                        <li class="list2_bg">
+                            <img src="img/콜라6.svg" alt="list2">
+                            <strong class="list2-name">Orange_Cola</strong>
+                            <span class="number2"><strong>2</strong> </span>
+                        </li>
+                        <li class="list2_bg">
+                            <img src="img/콜라2.svg" alt="list2">
+                            <strong class="list2-name">Violet_Cola</strong>
+                            <span class="number2"><strong>5</strong> </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- p 태그 주는데 클래스로 줌 -->
+            <span class="total-money">
+                총금액 : 9,000원
+            </span>
+        </div>
+    </div>
+
+</body>
+
+</html>
